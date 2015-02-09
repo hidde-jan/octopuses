@@ -1,6 +1,7 @@
-# Octopuses
+# :octopus: Octopuses :octopus:
 
-Everyone knows that the proper plural of octopus is octopuses.
+Everyone knows that the proper plural of octopus (:octopus:) is octopuses
+(:octopus::octopus:).
 
 ## Installation
 
@@ -21,7 +22,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
- > "octopus".pluralize
+"octopus".pluralize
 => "octopuses"
 ```
 
