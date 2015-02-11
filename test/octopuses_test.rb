@@ -1,9 +1,9 @@
-lib = File.expand_path('../../lib', __FILE__)
+lib = File.expand_path("../../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-require 'minitest/autorun'
-require 'active_support/inflector'
-require 'octopuses'
+require "minitest/autorun"
+require "active_support/inflector"
+require "octopuses"
 
 class OctopusesTest < Minitest::Test
   def test_pluralize_octopus
@@ -36,4 +36,3 @@ class OctopusesTest < Minitest::Test
     assert_equal "Platypus", ActiveSupport::Inflector.singularize("Platypus")
   end
 end
-

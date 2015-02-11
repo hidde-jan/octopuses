@@ -1,5 +1,5 @@
-require 'octopuses/version'
-require 'active_support/inflector/inflections'
+require "octopuses/version"
+require "active_support/inflector/inflections"
 
 module Octopuses
   ActiveSupport::Inflector.inflections do |inflect|
@@ -12,4 +12,3 @@ module Octopuses
     inflect.uncountable(%w(platypus))
   end
 end
-
